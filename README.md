@@ -24,3 +24,11 @@ Sublime configure on MacOS
   * 安装：查找`install package`
   * 卸载：查找`remove package`
   * 查看安装的包：`list package`
+## 四、更改图标
+0. 注意！！要先关闭编辑器
+1. 终端输入：`open /Applications/Sublime\ Text.app/Contents/Resources/`，将内部的Sublime Text.icns 替换为你想要替换的图标。
+2. 刷新图标：
+  * `touch /Applications/Sublime\ Text.app/`
+  * `touch /Applications/Sublime\ Text.app/Contents/Info.plist`
+3. 完成刷新
+
