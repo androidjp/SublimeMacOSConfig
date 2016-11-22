@@ -31,4 +31,10 @@ Sublime configure on MacOS
   * `touch /Applications/Sublime\ Text.app/`
   * `touch /Applications/Sublime\ Text.app/Contents/Info.plist`
 3. 完成刷新
-
+## 五、如何在命令行中使用sublime去打开某些文件？
+* 做法一：
+  1. 终端输入：`sudo rm /usr/local/bin/subl`
+  2. 终端输入：`sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl`
+  3. 详细命令可看：[这里](https://www.sublimetext.com/docs/3/osx_command_line.html)
+  4. 详细解决方法：[参考这个](http://stackoverflow.com/questions/32915464/sublime-symlink-disappeared-after-upgrading-to-el-capitan)
+  
