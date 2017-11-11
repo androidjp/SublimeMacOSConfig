@@ -55,4 +55,6 @@ Sublime configure on MacOS
 3. 命名为js.xxx并保存
 4. `Cmd + B`执行即可
 
-## 五、如何在命令行中使用sublime去打开某些文件？
+## 七、MacOS 下 Sublime 相关.sublime-build文件目录
+`/用户/androidjp/Libraries/Application Support/Sublime Text3/Packages/User/xxxx.sublime-build`
+
